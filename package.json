@@ -2,13 +2,17 @@
   "name": "typie",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "start": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "rxjs": "^7.8.0"
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2"
+  },
+  "prettier": {
+    "options.editorconfig": true
   }
 }
